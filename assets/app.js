@@ -17,7 +17,7 @@ function adivinarNumero(secreto){
             if(result == secreto){
                 alert("Numero correcto felicidaddes!!!");
                 document.getElementById('historial').innerHTML = `Intentos: ${lista.join(', ')} (acierto)`;
-                return;
+                return2;
             }else{
                 alert("No es el numero correcto intente nuevamente (intentos: "+ (i)+ " de 3");
                 document.getElementById('historial').innerHTML = `Intentos: ${lista.join(', ')}`;
